@@ -1,0 +1,21 @@
+.cardTitle {
+    padding: auto;
+    text-align: center;
+}
+.badgeContainer {
+    display: flex;
+    justify-content: end;
+}
+.badge {
+    padding: 4px 8px;
+    margin: 2px;
+}
+.cardTitle {
+    height: 20%;
+    text-overflow: ellipsis;
+}
+.ratingContainer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}

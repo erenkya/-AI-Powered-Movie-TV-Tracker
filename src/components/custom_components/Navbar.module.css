@@ -1,0 +1,72 @@
+.navbarContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0f0f0f;
+    color: white;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    min-height: 70px;
+    width: 100%;
+    position: relative;
+    left: 0;
+    right: 0;
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logoContainer > svg {
+    width: 2rem;
+}
+
+.logoText {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.navLinksContainer {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.navLink {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.navLink:hover {
+    color: #e2e8f0;
+}
+
+.registerLoginContainer {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.loginBtn {
+    color: white !important;
+    border-color: white !important;
+}
+
+.loginBtn:hover {
+    background-color: white !important;
+    color: black !important;
+}
+
+.registerBtn {
+    background-color: white !important;
+    color: black !important;
+}
+
+.registerBtn:hover {
+    background-color: #e2e8f0 !important;
+}

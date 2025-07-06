@@ -1,0 +1,16 @@
+.mainCartContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    padding: 5rem 12rem;
+    align-items: stretch;
+    justify-content: space-between;
+}
+.otherCartContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    padding: 5rem 20rem;
+    align-items: stretch;
+    justify-content: space-between;
+}
