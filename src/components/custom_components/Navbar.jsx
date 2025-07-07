@@ -1,8 +1,20 @@
 import React from "react";
+import { useState } from "react";
 import styles from "./Navbar.module.css";
-import { Button } from "@chakra-ui/react";
+import { Button, Input } from "@chakra-ui/react";
+import { useNavigate } from "react-router-dom";
 
 function Navbar() {
+    const navigate = useNavigate();
+    const [searchText, setSearchText] = useState("");
+
+    const handleKeyDown = (e) => {
+        if (e.key === "Enter" && searchText.trim() !== "") {
+            navigate(`/search/${encodeURIComponent(searchText.trim())}`);
+            setSearchText("");
+        }
+    };
+
     return (
         <div className={styles.navbarContainer}>
             <div className={styles.logoContainer}>
@@ -24,6 +36,13 @@ function Navbar() {
             </div>
 
             <div className={styles.registerLoginContainer}>
+                <Input
+                    placeholder="Search"
+                    variant="outline"
+                    value={searchText}
+                    onChange={(e) => setSearchText(e.target.value)}
+                    onKeyDown={handleKeyDown} // <-- correct
+                />
                 <Button variant="outline" className={styles.loginBtn}>
                     Login
                 </Button>
