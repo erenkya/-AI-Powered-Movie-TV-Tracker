@@ -5,6 +5,7 @@
     padding: 5rem 12rem;
     align-items: stretch;
     justify-content: space-between;
+    background-color: #0f0f0f;
 }
 .otherCartContainer {
     display: grid;
