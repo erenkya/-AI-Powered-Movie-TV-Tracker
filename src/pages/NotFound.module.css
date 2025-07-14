@@ -1,0 +1,39 @@
+.notFound {
+    background-color: #0f0f0f;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.notFoundContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #f0f0f0;
+}
+.fof {
+    font-size: 5rem;
+    font-weight: 800;
+    margin: 1rem 0;
+}
+.pnfH2 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0 0 1rem 0;
+}
+.sorryText {
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 0 0 1rem 0;
+}
+.homeButton {
+    background-color: #f0f0f0;
+    color: #0f0f0f;
+
+    font-size: 1.2rem;
+    width: 20%;
+}
+.homeButton:hover {
+    background-color: #a8a8a8;
+}
