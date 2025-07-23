@@ -1,13 +1,13 @@
-package com._AI_Powered_Movie_TV_Tracker._AI_Powered_Movie_TV_Tracker;
+package com.eren._AI_Powered_Movie_TV_Tracker.Backend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AiPoweredMovieTvTrackerApplication {
+public class AiPoweredMovieTvTrackerBackendApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AiPoweredMovieTvTrackerApplication.class, args);
+		SpringApplication.run(AiPoweredMovieTvTrackerBackendApplication.class, args);
 	}
 
 }
